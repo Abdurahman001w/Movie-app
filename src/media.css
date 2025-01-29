@@ -1,0 +1,71 @@
+@media screen and (max-width: 1700px) {
+  .cart-wrapper {
+    grid-template-columns: repeat(2, 282px);
+  }
+  .comment-block {
+    input {
+      max-width: 870px;
+    }
+    button {
+      max-width: 300px;
+    }
+  }
+}
+@media screen and (max-width: 635px) {
+  .container {
+    text-align: center;
+  }
+  .df {
+    font-size: 11px;
+  }
+  .cg-40 {
+    column-gap: 10px;
+  }
+  .sign-up {
+    font-size: 15px;
+  }
+  .header-md {
+    justify-content: center;
+    column-gap: 10px;
+  }
+  .apna-logo {
+    width: 80px;
+    height: auto;
+  }
+  .movie-title {
+    font-size: 35px;
+    color: rgb(250, 71, 118);
+  }
+  .movie-subtitle {
+    font-size: 10px;
+    font-weight: 900;
+    color: rgb(250, 71, 118);
+  }
+  .cart-wrapper {
+    grid-template-columns: repeat(1, 282px);
+  }
+  .movies-logo-film {
+    width: 300px;
+    height: 600px;
+  }
+  .center-block {
+    column-gap: 10px;
+  }
+  .center-title {
+    div {
+      font-size: 10px;
+    }
+  }
+
+  .comment-block {
+    input {
+      width: 300px;
+    }
+    button {
+      width: 200px;
+    }
+  }
+  .comment-text {
+    width: 200px;
+  }
+}
